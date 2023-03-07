@@ -1,4 +1,4 @@
-https://media.licdn.com/dms/image/D5616AQFsavyfLviZLg/profile-displaybackgroundimage-shrink_350_1400/0/1669779566827?e=1683763200&v=beta&t=2-qFaOmH6gUmStXHKm5eCl78Eup1WWueD46b-_UDpOw
+![](https://media.licdn.com/dms/image/D5616AQFsavyfLviZLg/profile-displaybackgroundimage-shrink_350_1400/0/1669779566827?e=1683763200&v=beta&t=2-qFaOmH6gUmStXHKm5eCl78Eup1WWueD46b-_UDpOw)
 <h1 align="center">Hi 👋, I'm Muhammad Azizul Hoque Jiku</h1>
 <h3 align="center">A passionate Web developer and SEO Specialist</h3>
 
