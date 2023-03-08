@@ -1,6 +1,6 @@
 ![](https://media.licdn.com/dms/image/D5616AQFsavyfLviZLg/profile-displaybackgroundimage-shrink_350_1400/0/1669779566827?e=1683763200&v=beta&t=2-qFaOmH6gUmStXHKm5eCl78Eup1WWueD46b-_UDpOw)
 <h1 align="center">Hello there 👋, I'm Muhammad Azizul Hoque Jiku</h1>
-<h2 align="center">Peace be upon you 🌻</h3>
+<h2 align="center">As-salam Alaykum (Peace be upon you 🌻)</h3>
 <h3 align="center">A passionate Web developer and SEO Specialist</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=muhammad-jiku&label=Profile%20views&color=0e75b6&style=flat" alt="muhammad-jiku" /> </p>
