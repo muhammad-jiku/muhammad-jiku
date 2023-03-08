@@ -62,7 +62,7 @@
     <img src="https://www.svgrepo.com/show/373574/ejs.svg" alt="ejs" title="ejs" width="40" height="40"/> 
   </a>
   <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" title="nextjs" width="40" height="40"/> 
+    <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="nextjs" title="nextjs" width="40" height="40"/> 
   </a>
   <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
     <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" title="figma" width="40" height="40"/> 
