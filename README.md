@@ -34,6 +34,9 @@
   <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" title="sass" width="40" height="40"/> 
   </a>  
+  <a href="https://mui.com/" target="_blank" rel="noreferrer"> 
+    <img src="https://w7.pngwing.com/pngs/761/513/png-transparent-material-ui-logo.png" alt="material ui" title="material ui" width="40" height="40"/> 
+  </a>  
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" title="javascript" width="40" height="40"/> 
   </a> 
