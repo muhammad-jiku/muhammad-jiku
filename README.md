@@ -3,11 +3,21 @@
 <h2 align="center">As-salam Alaykum (Peace be upon you 🌻)</h3>
 <h3 align="center">A passionate Web developer and SEO Specialist</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=muhammad-jiku&label=Profile%20views&color=0e75b6&style=flat" alt="muhammad-jiku" /> </p>
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=muhammad-jiku&label=Profile%20views&color=0e75b6&style=flat" alt="muhammad-jiku" /> 
+</p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=muhammad-jiku" alt="muhammad-jiku" /></a> </p>
+<p align="left"> 
+  <a href="https://github.com/ryo-ma/github-profile-trophy"> 
+    <img src="https://github-profile-trophy.vercel.app/?username=muhammad-jiku" alt="muhammad-jiku" />
+  </a> 
+</p>
 
-<p align="left"> <a href="https://twitter.com/muhammadjiku364" target="blank"><img src="https://img.shields.io/twitter/follow/muhammadjiku364?logo=twitter&style=for-the-badge" alt="muhammadjiku364" /></a> </p>
+<p align="left"> 
+  <a href="https://twitter.com/muhammadjiku364" target="blank"> 
+    <img src="https://img.shields.io/twitter/follow/muhammadjiku364?logo=twitter&style=for-the-badge" alt="muhammadjiku364" />
+  </a> 
+</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
