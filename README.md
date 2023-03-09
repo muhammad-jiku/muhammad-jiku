@@ -82,6 +82,9 @@
   <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> 
     <img src="https://www.justingerhart.com/images/about/nextjs.png" alt="nextjs" title="nextjs" width="40" height="40"/> 
   </a>
+
+</p>
+<p align="left">  
   <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
     <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" title="figma" width="40" height="40"/> 
   </a>
