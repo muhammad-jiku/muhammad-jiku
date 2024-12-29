@@ -24,8 +24,8 @@
   <a href="https://twitter.com/muhammadjiku364" target="blank"> 
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="muhammadjiku364" height="30" width="40" />
   </a>
-  <a href="https://linkedin.com/in/muhammad-azizul-hoque-jiku-775057211" target="blank"> 
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="muhammad-azizul-hoque-jiku-775057211" height="30" width="40" />
+  <a href="https://www.linkedin.com/in/md-azizul-hoque-775057211" target="blank"> 
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="md-azizul-hoque-775057211" height="30" width="40" />
   </a>
   <a href="https://fb.com/azizul.azizulhoquejiku" target="blank"> 
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="azizul.azizulhoquejiku" height="30" width="40" />
