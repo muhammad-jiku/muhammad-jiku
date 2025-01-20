@@ -111,4 +111,8 @@
 <!-- <p>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammad-jiku&" alt="muhammad-jiku" />
 </p> -->
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=muhammad-jiku" alt="GitHub Streak" /></a>
+<p>
+<!-- <a href="https://git.io/streak-stats"> -->
+  <img src="https://streak-stats.demolab.com?user=muhammad-jiku" alt=alt="muhammad-jiku" />
+<!-- </a> -->
+</p>
