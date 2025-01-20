@@ -113,6 +113,6 @@
 </p> -->
 <p>
 <!-- <a href="https://git.io/streak-stats"> -->
-  <img src="https://streak-stats.demolab.com?user=muhammad-jiku" alt=alt="muhammad-jiku" />
+  <img src="https://streak-stats.demolab.com?user=muhammad-jiku" alt="muhammad-jiku" />
 <!-- </a> -->
 </p>
