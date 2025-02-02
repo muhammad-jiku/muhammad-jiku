@@ -107,11 +107,11 @@
 </p>
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=muhammad-jiku&show_icons=true&locale=en" alt="muhammad-jiku" />
-</p>
-<!-- <p>
+<!--</p>
+ <p>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammad-jiku&" alt="muhammad-jiku" />
-</p> -->
-<p>
+</p> 
+<p>-->
 <!-- <a href="https://git.io/streak-stats"> -->
   <img src="https://streak-stats.demolab.com?user=muhammad-jiku" alt="muhammad-jiku" />
 <!-- </a> -->
