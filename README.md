@@ -104,8 +104,8 @@
 <br /><br />
 <p>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=muhammad-jiku&show_icons=true&locale=en&layout=compact" alt="muhammad-jiku" />
-</p>
-<p>
+<!-- </p>
+<p> -->
   <img src="https://github-readme-stats.vercel.app/api?username=muhammad-jiku&show_icons=true&locale=en" alt="muhammad-jiku" />
 <!--</p>
  <p>
