@@ -8,6 +8,8 @@ on:
     paths-ignore:
       - "generated/**"
       - "README.md"
+  repository_dispatch:
+    types: [profile-refresh]
   workflow_dispatch:
 
 permissions:

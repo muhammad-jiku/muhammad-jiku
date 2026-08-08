@@ -5,6 +5,8 @@ on:
     - cron: "0 */6 * * *"
   push:
     branches: [main]
+  repository_dispatch:
+    types: [profile-refresh]
   workflow_dispatch:
 
 permissions:

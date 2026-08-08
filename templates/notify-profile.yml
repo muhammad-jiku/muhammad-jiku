@@ -1,0 +1,33 @@
+# Copy this file into any OTHER repo you own as .github/workflows/notify-profile.yml
+# to make a push there refresh this profile README within seconds instead of
+# waiting for the next daily cron.
+#
+# One-time setup before copying this in:
+#   1. Create a fine-grained Personal Access Token scoped to ONLY
+#      muhammad-jiku/muhammad-jiku, with "Contents: Read and write" permission.
+#      (github.com -> Settings -> Developer settings -> Personal access tokens
+#      -> Fine-grained tokens -> Generate new token)
+#   2. In the OTHER repo: Settings -> Secrets and variables -> Actions
+#      -> New repository secret -> name it PROFILE_DISPATCH_TOKEN, paste the token.
+#
+# Requires admin access on the other repo to add secrets/workflows, so this is
+# realistic for your own public/personal repos — not for confidential client
+# repos where you don't control repo settings.
+
+name: Notify profile README
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger profile refresh
+        run: |
+          curl -sf -X POST \
+            -H "Authorization: Bearer ${{ secrets.PROFILE_DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/muhammad-jiku/muhammad-jiku/dispatches \
+            -d '{"event_type":"profile-refresh"}'

@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths-ignore:
       - "README.md"
+  repository_dispatch:
+    types: [profile-refresh]
   workflow_dispatch:
 
 permissions:

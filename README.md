@@ -119,7 +119,7 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 
 ## 🔄 Latest Public Projects
 
-_Automatically updated from my public GitHub activity — see [update-readme.yml](.github/workflows/update-readme.yml)._
+_Automatically updated from my public GitHub activity — see [update-readme.yml](.github/workflows/update-readme.yml). Refreshes daily on a schedule, or instantly from any repo wired up with [templates/notify-profile.yml](templates/notify-profile.yml)._
 
 <!-- PROJECTS-START -->
 - **[jikmunn-odyssey-task-one](https://github.com/muhammad-jiku/jikmunn-odyssey-task-one)**  ·  `TypeScript`  ·  updated 2026-05-03
