@@ -122,7 +122,12 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 _Automatically updated from my public GitHub activity — see [update-readme.yml](.github/workflows/update-readme.yml)._
 
 <!-- PROJECTS-START -->
-_Refreshing soon — check back after the next automated update._
+- **[jikmunn-odyssey-task-one](https://github.com/muhammad-jiku/jikmunn-odyssey-task-one)**  ·  `TypeScript`  ·  updated 2026-05-03
+- **[jikmunn-inventory-management](https://github.com/muhammad-jiku/jikmunn-inventory-management)**  ·  `TypeScript`  ·  updated 2026-03-03
+- **[jikmunn-learning-management](https://github.com/muhammad-jiku/jikmunn-learning-management)** — Learn Now makes learning frictionless: students can sign in, search curated courses, purchase and enroll in minutes, while teachers create and manage courses — uploading videos, quizzes, and materials — all backed by a scalable serverless stack.  ·  `TypeScript`  ·  updated 2026-03-02
+- **[jikmunn-real-estate-enterprise](https://github.com/muhammad-jiku/jikmunn-real-estate-enterprise)** — Rentiful is a real estate application built under the Jikmunn Real Estate Enterprise project. It is a digital platform where tenants can register, explore properties, and purchase their desired spaces. Managers are provided with tools to effectively administer and monitor lease agreements  ·  `TypeScript`  ·  updated 2026-02-28
+- **[jikmunn-bike-inventory-client-side](https://github.com/muhammad-jiku/jikmunn-bike-inventory-client-side)** — Bike Decor Inventory is a modern MERN stack application for managing and showcasing bike accessories and inventory. It features secure authentication, user-specific inventory management, and a sleek, user-friendly interface for both admins and customers to explore and manage bike decor products.  ·  `JavaScript`  ·  updated 2026-01-19
+- **[jikmunn-bike-inventory-server-side](https://github.com/muhammad-jiku/jikmunn-bike-inventory-server-side)** — The Bike Decor Inventory Server is a robust Node.js and Express backend that powers secure bike accessory inventory management. It features JWT-based authentication, user-specific data protection, and seamless MongoDB integration, providing reliable APIs for both public browsing and authenticated inventory operations.  ·  `JavaScript`  ·  updated 2026-01-19
 <!-- PROJECTS-END -->
 
 ➡️ Browse everything: [github.com/muhammad-jiku?tab=repositories](https://github.com/muhammad-jiku?tab=repositories)
@@ -134,7 +139,8 @@ _Refreshing soon — check back after the next automated update._
 Some of my work happens inside clients'/teammates' repositories rather than my own — surfaced here from merged pull requests found via the GitHub API. Any client engagement kept under a private repo isn't publicly discoverable, so it's noted as private instead of linked.
 
 <!-- CONTRIBUTIONS-START -->
-_Refreshing soon — check back after the next automated update._
+- **[mahbubnoyon506/breeze-time](https://github.com/mahbubnoyon506/breeze-time)** — 5 pull requests (5 merged)
+- **[mahbubnoyon506/managing-branches](https://github.com/mahbubnoyon506/managing-branches)** — 1 pull request (1 merged)
 <!-- CONTRIBUTIONS-END -->
 
 > Additional freelance/client work has been delivered under private repositories per client confidentiality — available on request or via my [jikmunn](https://jikmunn.vercel.app/) portfolio.
