@@ -1,118 +1,201 @@
-![](https://media.licdn.com/dms/image/D5616AQFsavyfLviZLg/profile-displaybackgroundimage-shrink_350_1400/0/1669779566827?e=1683763200&v=beta&t=2-qFaOmH6gUmStXHKm5eCl78Eup1WWueD46b-_UDpOw)
-<h1 align="center">Hello there 👋, I'm Muhammad Azizul Hoque Jiku</h1>
-<h2 align="center">As-salam Alaykum (Peace be upon you 🌻)</h3>
-<h3 align="center">A passionate Web developer and SEO Specialist</h3>
+<div align="center">
 
-<p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=muhammad-jiku&label=Profile%20views&color=0e75b6&style=flat" alt="muhammad-jiku" /> 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Muhammad+Azizul+Hoque+Jiku;Full-Stack+Web+%26+Mobile+App+Developer;Next.js+%7C+MERN+%7C+PERN+%7C+React+Native;Building+fast%2C+accessible%2C+production-grade+apps" alt="Typing SVG" />
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=muhammad-jiku&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <a href="https://jikmunn.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-jikmunn-0e75b6?logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/muhammad-azizul-hoque-jiku-775057211/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/azizul.azizulhoquejiku" target="_blank"><img src="https://img.shields.io/badge/Facebook-Follow-1877F2?logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="https://wa.me/8801855613783" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="mailto:muhammadjiku364@gmail.com"><img src="https://img.shields.io/badge/Email-muhammadjiku364%40gmail.com-D14836?logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<p align="left"> 
-  <a href="https://github.com/ryo-ma/github-profile-trophy"> 
-    <img src="https://github-profile-trophy.vercel.app/?username=muhammad-jiku" alt="muhammad-jiku" />
-  </a> 
-</p>
+</div>
 
-<p align="left"> 
-  <a href="https://twitter.com/muhammadjiku364" target="blank"> 
-    <img src="https://img.shields.io/twitter/follow/muhammadjiku364?logo=twitter&style=for-the-badge" alt="muhammadjiku364" />
-  </a> 
-</p>
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://twitter.com/muhammadjiku364" target="blank"> 
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="muhammadjiku364" height="30" width="40" />
-  </a>
-  <a href="https://www.linkedin.com/in/md-azizul-hoque-775057211" target="blank"> 
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="md-azizul-hoque-775057211" height="30" width="40" />
-  </a>
-  <a href="https://fb.com/azizul.azizulhoquejiku" target="blank"> 
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="azizul.azizulhoquejiku" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/muhammadazizuljiku" target="blank"> 
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="muhammadazizuljiku" height="30" width="40" />
-  </a>
-</p>
+## 🚀 About Me
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">  
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" title="html5" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" title="css3" width="40" height="40"/> 
-  </a> 
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" title="bootstrap" width="40" height="40"/> 
-  </a> 
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" title="tailwind" width="40" height="40"/> 
-  </a> 
-  <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" title="sass" width="40" height="40"/> 
-  </a>  
-  <a href="https://mui.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" alt="material ui" title="material ui" width="40" height="40"/> 
-  </a>  
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" title="javascript" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" title="typescript" width="40" height="40"/> 
-  </a>  
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" title="react" width="40" height="40"/> 
-  </a> 
-  <a href="https://redux.js.org" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" title="redux" width="40" height="40"/> 
-  </a> 
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" title="nodejs" width="40" height="40"/> 
-  </a> 
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> 
-    <img src="https://img.icons8.com/office/512/express-js.png" alt="expressjs" title="expressjs" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" title="mongodb" width="40" height="40"/> 
-  </a> 
-   <a href="https://ejs.co/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.svgrepo.com/show/373574/ejs.svg" alt="ejs" title="ejs" width="40" height="40"/> 
-  </a>
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.justingerhart.com/images/about/nextjs.png" alt="nextjs" title="nextjs" width="40" height="40"/> 
-  </a>
+I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with hands-on experience across the entire workflow — frontend, backend, and database/DBMS design — end-to-end, from schema to pixel-perfect UI to native mobile builds. I ship across the **MERN / PERN / MEAN** stacks, **Next.js**, and **React Native / Flutter** for mobile, and I bring a debugging-first, performance-obsessed mindset to everything I build.
 
-</p>
-<p align="left">   
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" alt="vscode" title="vscode" width="40" height="40"/> 
+- 🔭 Currently building full-stack web & mobile products with **Next.js, React, React Native, Node.js, NestJS, Express, MongoDB, PostgreSQL & Supabase**
+- 🌱 Actively deepening skills in **system design, cloud infrastructure, and testing**
+- 🔍 Bring **SEO best practices** into every frontend project — performance, semantics, and discoverability aren't an afterthought
+- 🤝 Open to full-stack web / mobile developer roles and freelance collaboration
+- 📄 Full résumé: **[muhammad-jiku/muhammad-jiku](https://github.com/muhammad-jiku/muhammad-jiku)** → see `Muhammad Azizul Hoque Jiku.md` in this repo
+
+<br />
+
+## 🛠️ Skills & Tech Stack
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**Frontend**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material_UI-007FFF?logo=mui&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white)
+![SEO](https://img.shields.io/badge/SEO-4285F4?logo=googlesearchconsole&logoColor=white)
+
+**Mobile**
+
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?logo=react&logoColor=black)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+
+**Database**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?logo=mongoose&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)
+
+</td>
+<td valign="top" width="50%">
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002?logo=hono&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white)
+![EJS](https://img.shields.io/badge/EJS-B4CA65?logo=ejs&logoColor=black)
+![REST API](https://img.shields.io/badge/REST_API-005571?logo=fastapi&logoColor=white)
+
+**DevOps & Cloud**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+
+**Testing & Tooling**
+
+![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white)
+![React Testing Library](https://img.shields.io/badge/RTL-E33332?logo=testing-library&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?logo=sentry&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<br />
+
+## 📌 Featured Projects (résumé)
+
+| Project | Highlights | Tech Stack |
+|---|---|---|
+| **Sports Mania** | Global, device-responsive sports store — category browsing, filters, pagination, search, and cart management | Material UI, Redux, MVC, MERN |
+| **Dr. Abdul Kader's Personal Appointment App** | Device-responsive health platform — appointment scheduling and service-based booking | Tailwind CSS, MVC, MERN |
+| **Conference Call App** | Device-responsive video conferencing — real-time chat, reactions, screen sharing, meeting recording | Next.js, React, Material UI, Tailwind CSS, JWT, VideoSDK API |
+
+<br />
+
+## 🔄 Latest Public Projects
+
+_Automatically updated from my public GitHub activity — see [update-readme.yml](.github/workflows/update-readme.yml)._
+
+<!-- PROJECTS-START -->
+_Refreshing soon — check back after the next automated update._
+<!-- PROJECTS-END -->
+
+➡️ Browse everything: [github.com/muhammad-jiku?tab=repositories](https://github.com/muhammad-jiku?tab=repositories)
+
+<br />
+
+## 🤝 Collaborative & Client Work
+
+Some of my work happens inside clients'/teammates' repositories rather than my own — surfaced here from merged pull requests found via the GitHub API. Any client engagement kept under a private repo isn't publicly discoverable, so it's noted as private instead of linked.
+
+<!-- CONTRIBUTIONS-START -->
+_Refreshing soon — check back after the next automated update._
+<!-- CONTRIBUTIONS-END -->
+
+> Additional freelance/client work has been delivered under private repositories per client confidentiality — available on request or via my [jikmunn](https://jikmunn.vercel.app/) portfolio.
+
+<br />
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="generated/stats.svg" alt="muhammad-jiku's GitHub stats" />
+  <img src="generated/languages.svg" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=muhammad-jiku&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=muhammad-jiku&theme=algolia&no-frame=true&row=1&column=7" alt="Trophies" />
   </a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" title="figma" width="40" height="40"/> 
+</div>
+
+> The stats and top-languages cards above are generated by [generate-stats-svg.py](scripts/generate-stats-svg.py) and committed straight into this repo by [generate-stats.yml](.github/workflows/generate-stats.yml) — no dependency on a third-party server's uptime or quota. Streak stats and trophies still come from `streak-stats.demolab.com` / `github-profile-trophy.vercel.app`; those are separate free services and can occasionally return errors (503/402) if their shared quota is exhausted — that's on their end, not a broken link here.
+
+<br />
+
+## 🐍 Contribution Activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhammad-jiku/muhammad-jiku/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhammad-jiku/muhammad-jiku/output/github-snake.svg" />
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/muhammad-jiku/muhammad-jiku/output/github-snake.svg" />
+  </picture>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=muhammad-jiku&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" width="100%" />
+</div>
+
+> The snake animation is generated by the [generate-snake.yml](.github/workflows/generate-snake.yml) workflow, which redraws it from my contribution graph every 6 hours and publishes it to the `output` branch. It will render as soon as that workflow has run once after this repo is pushed.
+
+<br />
+
+## 📫 Get In Touch
+
+<p align="center">
+  <a href="https://jikmunn.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-jikmunn-0e75b6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://postman.com" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" title="postman" width="40" height="40"/> 
-  </a> 
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" title="git" width="40" height="40"/> 
-  </a> 
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" title="firebase" width="40" height="40"/> 
+  <a href="https://www.linkedin.com/in/muhammad-azizul-hoque-jiku-775057211/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-</p>
-<br /><br />
-<p >
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=muhammad-jiku&show_icons=true&locale=en&layout=compact&langs_count=100" alt="muhammad-jiku" />
- </p> 
- <p> 
-  <img src="https://github-readme-stats.vercel.app/api?username=muhammad-jiku&show_icons=true&locale=en" alt="muhammad-jiku" />
-<!--</p>
- <p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammad-jiku&" alt="muhammad-jiku" />
-</p> 
-<p>-->
-<!-- <a href="https://git.io/streak-stats"> -->
-  <img src="https://streak-stats.demolab.com?user=muhammad-jiku" alt="muhammad-jiku" />
-<!-- </a> -->
+  <a href="https://www.facebook.com/azizul.azizulhoquejiku" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://wa.me/8801855613783" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
+  <a href="mailto:muhammadjiku364@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
