@@ -134,6 +134,16 @@ _Automatically updated from my public GitHub activity — see [update-readme.yml
 
 <br />
 
+## 🔒 Private / Client Projects
+
+Repos kept private for client confidentiality — listed here by name and stack only, with no link and no description, so the work is acknowledged without exposing anything.
+
+<!-- PRIVATE-PROJECTS-START -->
+_Refreshing soon — check back after the next automated update._
+<!-- PRIVATE-PROJECTS-END -->
+
+<br />
+
 ## 🤝 Collaborative & Client Work
 
 Some of my work happens inside clients'/teammates' repositories rather than my own — surfaced here from merged pull requests found via the GitHub API. Any client engagement kept under a private repo isn't publicly discoverable, so it's noted as private instead of linked.

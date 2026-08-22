@@ -26,6 +26,7 @@ jobs:
         env:
           GH_USERNAME: muhammad-jiku
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PRIVATE_REPOS_TOKEN: ${{ secrets.PRIVATE_REPOS_TOKEN }}
         run: bash scripts/update-projects.sh
 
       - name: Commit and push if changed
