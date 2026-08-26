@@ -139,8 +139,8 @@ _Automatically updated from my public GitHub activity — see [update-readme.yml
 Repos kept private for client confidentiality — listed here by name and stack only, with no link and no description, so the work is acknowledged without exposing anything.
 
 <!-- PRIVATE-PROJECTS-START -->
+- 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-08-25  ·  _private, code not public_
 - 🔒 **jikmunn-portfolio-cms**  ·  `TypeScript`  ·  updated 2026-08-24  ·  _private, code not public_
-- 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-08-24  ·  _private, code not public_
 <!-- PRIVATE-PROJECTS-END -->
 
 <br />
