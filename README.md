@@ -122,12 +122,12 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 _Automatically updated from my public GitHub activity — see [update-readme.yml](.github/workflows/update-readme.yml). Refreshes daily on a schedule, or instantly from any repo wired up with [templates/notify-profile.yml](templates/notify-profile.yml)._
 
 <!-- PROJECTS-START -->
+- **[jikmunn-blogs-discussions](https://github.com/muhammad-jiku/jikmunn-blogs-discussions)**  ·  updated 2026-09-01
 - **[jikmunn-odyssey-task-one](https://github.com/muhammad-jiku/jikmunn-odyssey-task-one)**  ·  `TypeScript`  ·  updated 2026-05-03
 - **[jikmunn-inventory-management](https://github.com/muhammad-jiku/jikmunn-inventory-management)**  ·  `TypeScript`  ·  updated 2026-03-03
 - **[jikmunn-learning-management](https://github.com/muhammad-jiku/jikmunn-learning-management)** — Learn Now makes learning frictionless: students can sign in, search curated courses, purchase and enroll in minutes, while teachers create and manage courses — uploading videos, quizzes, and materials — all backed by a scalable serverless stack.  ·  `TypeScript`  ·  updated 2026-03-02
 - **[jikmunn-real-estate-enterprise](https://github.com/muhammad-jiku/jikmunn-real-estate-enterprise)** — Rentiful is a real estate application built under the Jikmunn Real Estate Enterprise project. It is a digital platform where tenants can register, explore properties, and purchase their desired spaces. Managers are provided with tools to effectively administer and monitor lease agreements  ·  `TypeScript`  ·  updated 2026-02-28
 - **[jikmunn-bike-inventory-client-side](https://github.com/muhammad-jiku/jikmunn-bike-inventory-client-side)** — Bike Decor Inventory is a modern MERN stack application for managing and showcasing bike accessories and inventory. It features secure authentication, user-specific inventory management, and a sleek, user-friendly interface for both admins and customers to explore and manage bike decor products.  ·  `JavaScript`  ·  updated 2026-01-19
-- **[jikmunn-bike-inventory-server-side](https://github.com/muhammad-jiku/jikmunn-bike-inventory-server-side)** — The Bike Decor Inventory Server is a robust Node.js and Express backend that powers secure bike accessory inventory management. It features JWT-based authentication, user-specific data protection, and seamless MongoDB integration, providing reliable APIs for both public browsing and authenticated inventory operations.  ·  `JavaScript`  ·  updated 2026-01-19
 <!-- PROJECTS-END -->
 
 ➡️ Browse everything: [github.com/muhammad-jiku?tab=repositories](https://github.com/muhammad-jiku?tab=repositories)
@@ -139,8 +139,8 @@ _Automatically updated from my public GitHub activity — see [update-readme.yml
 Repos kept private for client confidentiality — listed here by name and stack only, with no link and no description, so the work is acknowledged without exposing anything.
 
 <!-- PRIVATE-PROJECTS-START -->
+- 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-09-01  ·  _private, code not public_
 - 🔒 **jikmunn-portfolio-cms**  ·  `TypeScript`  ·  updated 2026-08-31  ·  _private, code not public_
-- 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-08-30  ·  _private, code not public_
 <!-- PRIVATE-PROJECTS-END -->
 
 <br />
