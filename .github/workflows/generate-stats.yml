@@ -15,6 +15,16 @@ on:
 permissions:
   contents: write
 
+# Shared with update-readme.yml — both workflows can be triggered by the
+# same `profile-refresh` dispatch (fired by every push to the portfolio
+# repos) and both commit+push to this repo's main. Without a shared
+# concurrency group, two runs racing in parallel can have the second one's
+# push rejected non-fast-forward. Same group name in both files queues
+# them instead of racing them.
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest

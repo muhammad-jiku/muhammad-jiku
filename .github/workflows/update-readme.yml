@@ -15,6 +15,11 @@ on:
 permissions:
   contents: write
 
+# Shared with generate-stats.yml — see that file's comment for why.
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
