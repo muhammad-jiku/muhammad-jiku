@@ -5,12 +5,12 @@
   </text>
   <g font-family="'Segoe UI', Ubuntu, Sans-Serif">
     <text x="25" y="70" fill="#c0caf5" font-size="14">Public Repos:</text>
-    <text x="470" y="70" fill="#bb9af7" font-size="14" font-weight="700" text-anchor="end">148</text>
+    <text x="470" y="70" fill="#bb9af7" font-size="14" font-weight="700" text-anchor="end">149</text>
     <text x="25" y="100" fill="#c0caf5" font-size="14">Total Stars Earned:</text>
-    <text x="470" y="100" fill="#bb9af7" font-size="14" font-weight="700" text-anchor="end">23</text>
+    <text x="470" y="100" fill="#bb9af7" font-size="14" font-weight="700" text-anchor="end">24</text>
     <text x="25" y="130" fill="#c0caf5" font-size="14">Total Forks:</text>
     <text x="470" y="130" fill="#bb9af7" font-size="14" font-weight="700" text-anchor="end">0</text>
     <text x="25" y="160" fill="#c0caf5" font-size="14">Followers:</text>
-    <text x="470" y="160" fill="#bb9af7" font-size="14" font-weight="700" text-anchor="end">9</text>
+    <text x="470" y="160" fill="#bb9af7" font-size="14" font-weight="700" text-anchor="end">10</text>
   </g>
 </svg>
