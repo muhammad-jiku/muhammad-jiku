@@ -5,11 +5,11 @@
 <p>
   <img src="https://komarev.com/ghpvc/?username=muhammad-jiku&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
   <img src="generated/experience-badge.svg" alt="Years of experience" />
-  <a href="https://jikmunn.vercel.app/" target="_blank"><img src="generated/badges/portfolio-jikmunn.svg" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/muhammad-azizul-hoque-jiku-775057211/" target="_blank"><img src="generated/badges/linkedin-connect.svg" alt="LinkedIn" /></a>
-  <a href="https://www.facebook.com/azizul.azizulhoquejiku" target="_blank"><img src="generated/badges/facebook-follow.svg" alt="Facebook" /></a>
-  <a href="https://wa.me/8801855613783" target="_blank"><img src="generated/badges/whatsapp-chat.svg" alt="WhatsApp" /></a>
-  <a href="mailto:muhammadjiku364@gmail.com"><img src="generated/badges/email-muhammadjiku364-gmail-com.svg" alt="Email" /></a>
+  <a href="https://jikmunn.vercel.app/" target="_blank"><img src="generated/badges/header-portfolio.svg" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/muhammad-azizul-hoque-jiku-775057211/" target="_blank"><img src="generated/badges/header-linkedin.svg" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/azizul.azizulhoquejiku" target="_blank"><img src="generated/badges/header-facebook.svg" alt="Facebook" /></a>
+  <a href="https://wa.me/8801855613783" target="_blank"><img src="generated/badges/header-whatsapp.svg" alt="WhatsApp" /></a>
+  <a href="mailto:muhammadjiku364@gmail.com"><img src="generated/badges/header-gmail.svg" alt="Email" /></a>
 </p>
 
 </div>

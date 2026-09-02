@@ -125,9 +125,32 @@ def parse_badge_url(match):
     return label, value, color, logo, logo_color, large
 
 
+# The header row (next to Profile views / Experience) wants the footer's
+# solid-color, brand-name-only look — not the header's original two-tone
+# label:value style — but at the same small height as its neighboring
+# badges, not the footer's larger `style=for-the-badge` height. Neither
+# combination exists among the badges actually embedded in the README, so
+# these are generated explicitly rather than discovered by parsing it.
+HEADER_BADGES = [
+    ("header-portfolio.svg", "Portfolio", "jikmunn", "0e75b6", "vercel"),
+    ("header-linkedin.svg", "LinkedIn", None, "0077B5", "linkedin"),
+    ("header-facebook.svg", "Facebook", None, "1877F2", "facebook"),
+    ("header-whatsapp.svg", "WhatsApp", None, "25D366", "whatsapp"),
+    ("header-gmail.svg", "Gmail", None, "D14836", "gmail"),
+]
+
+
+def generate_header_badges(icons):
+    for filename, label, value, color, logo in HEADER_BADGES:
+        svg = build_badge_svg(icons, label, value, color, logo, "white", large=False)
+        with open(os.path.join(OUT_DIR, filename), "w", encoding="utf-8") as out:
+            out.write(svg)
+
+
 def main():
     icons = load_icons()
     os.makedirs(OUT_DIR, exist_ok=True)
+    generate_header_badges(icons)
 
     with open(README_PATH, encoding="utf-8") as f:
         readme = f.read()
