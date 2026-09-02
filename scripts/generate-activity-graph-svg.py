@@ -71,10 +71,11 @@ def build_activity_graph_svg(calendar):
     # what the previous third-party embed showed.
     days = [d for week in weeks for d in week["contributionDays"]]
 
-    width, height = 495, 195
-    pad_left, pad_right, pad_top, pad_bottom = 30, 15, 35, 30
+    width, height = 495, 215
+    pad_left, pad_right, pad_top, pad_bottom = 44, 15, 35, 46
     plot_width = width - pad_left - pad_right
     plot_height = height - pad_top - pad_bottom
+    baseline_y = pad_top + plot_height
 
     counts = [d["contributionCount"] for d in days]
     max_count = max(counts) if counts and max(counts) > 0 else 1
@@ -91,11 +92,18 @@ def build_activity_graph_svg(calendar):
     # down to the baseline — same visual language as the third-party chart
     # it replaces, drawn with plain SVG rather than any charting library.
     line_path = "M " + " L ".join(f"{x:.1f},{y:.1f}" for x, y in points)
-    baseline_y = pad_top + plot_height
     area_path = (
         f"M {points[0][0]:.1f},{baseline_y:.1f} "
         + " L ".join(f"{x:.1f},{y:.1f}" for x, y in points)
         + f" L {points[-1][0]:.1f},{baseline_y:.1f} Z"
+    )
+
+    # One small dot marker per day, matching the reference charts' style —
+    # kept tiny (r=1.3) since a full year is ~365 points, much denser than
+    # the 31-day reference screenshots.
+    dot_svg = "".join(
+        f'<circle cx="{x:.1f}" cy="{y:.1f}" r="1.3" fill="{THEME["area"]}" />'
+        for x, y in points
     )
 
     # One tick per month boundary actually present in the data, so the
@@ -110,10 +118,35 @@ def build_activity_graph_svg(calendar):
             x, _ = points[i]
             month_ticks.append((x, MONTH_LABELS[month_index]))
 
-    tick_svg = "".join(
-        f'<text x="{x:.1f}" y="{height - 8}" fill="{THEME["muted"]}" font-size="10" text-anchor="middle">{label}</text>'
+    # Vertical gridlines at each month boundary, horizontal gridlines at a
+    # handful of round contribution-count values — the "square" plot-area
+    # grid the reference charts have and this one was missing.
+    grid_svg = "".join(
+        f'<line x1="{x:.1f}" y1="{pad_top}" x2="{x:.1f}" y2="{baseline_y:.1f}" '
+        f'stroke="{THEME["border"]}" stroke-width="0.5" />'
+        for x, _ in month_ticks
+    )
+
+    y_tick_count = 4
+    y_ticks = [round(max_count * i / y_tick_count) for i in range(y_tick_count + 1)]
+    y_grid_svg = "".join(
+        f'<line x1="{pad_left}" y1="{pad_top + plot_height * (1 - v / max_count):.1f}" '
+        f'x2="{width - pad_right}" y2="{pad_top + plot_height * (1 - v / max_count):.1f}" '
+        f'stroke="{THEME["border"]}" stroke-width="0.5" />'
+        for v in y_ticks
+    )
+    y_label_svg = "".join(
+        f'<text x="{pad_left - 8}" y="{pad_top + plot_height * (1 - v / max_count) + 3:.1f}" '
+        f'fill="{THEME["muted"]}" font-size="9" text-anchor="end">{v}</text>'
+        for v in y_ticks
+    )
+
+    month_label_svg = "".join(
+        f'<text x="{x:.1f}" y="{height - pad_bottom + 16}" fill="{THEME["muted"]}" font-size="10" text-anchor="middle">{label}</text>'
         for x, label in month_ticks
     )
+
+    y_axis_center = pad_top + plot_height / 2
 
     return f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
   <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="10" fill="{THEME['bg']}" stroke="{THEME['border']}" />
@@ -123,9 +156,16 @@ def build_activity_graph_svg(calendar):
   <text x="470" y="24" fill="{THEME['accent']}" font-size="12" font-weight="700" text-anchor="end" font-family="'Segoe UI', Ubuntu, Sans-Serif">
     {total} total
   </text>
-  <path d="{area_path}" fill="{THEME['area']}" fill-opacity="0.25" stroke="none" />
-  <path d="{line_path}" fill="none" stroke="{THEME['area']}" stroke-width="1.5" />
-  <g font-family="'Segoe UI', Ubuntu, Sans-Serif">{tick_svg}
+  <g font-family="'Segoe UI', Ubuntu, Sans-Serif">
+    <rect x="{pad_left}" y="{pad_top}" width="{plot_width}" height="{plot_height}" fill="none" stroke="{THEME['border']}" />
+    {grid_svg}{y_grid_svg}
+    <path d="{area_path}" fill="{THEME['area']}" fill-opacity="0.25" stroke="none" />
+    <path d="{line_path}" fill="none" stroke="{THEME['area']}" stroke-width="1.5" />
+    {dot_svg}
+    {y_label_svg}
+    {month_label_svg}
+    <text x="{pad_left + plot_width / 2:.1f}" y="{height - 8}" fill="{THEME['muted']}" font-size="10" text-anchor="middle">Days</text>
+    <text x="12" y="{y_axis_center:.1f}" fill="{THEME['muted']}" font-size="10" text-anchor="middle" transform="rotate(-90 12 {y_axis_center:.1f})">Contributions</text>
   </g>
 </svg>'''
 
