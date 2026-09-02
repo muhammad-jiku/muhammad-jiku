@@ -16,9 +16,10 @@ OUT_DIR = "generated"
 
 # Matches the palette already used by generate-stats-svg.py's cards, so this
 # chart sits visually consistent with the rest of the README rather than
-# introducing a fourth color scheme. "dot" is GitHub's own contribution-graph
-# green (same family as the snake animation's squares), used only for the
-# per-day markers so they read as "contribution" dots at a glance.
+# introducing a fourth color scheme. "dot" was briefly GitHub's own
+# contribution-graph green, but that clashed against the chart's own blue
+# line/area — using the same accent purple as the title/total text instead
+# keeps the dots visibly "part of" this chart rather than looking pasted on.
 THEME = {
     "bg": "#1a1b27",
     "border": "#30354f",
@@ -27,8 +28,14 @@ THEME = {
     "muted": "#565f89",
     "accent": "#bb9af7",
     "area": "#7aa2f7",
-    "dot": "#39d353",
+    "dot": "#bb9af7",
 }
+
+# The reference charts this replaced only ever showed one month; showing a
+# full year here made 365 points/dots look congested. Trimmed to the most
+# recent window instead — a rolling 30-day view still says something
+# meaningful about recent activity without the visual noise.
+WINDOW_DAYS = 30
 
 QUERY = """
 query($login: String!) {
@@ -68,12 +75,14 @@ def fetch_contribution_calendar(username):
 def build_activity_graph_svg(calendar):
     weeks = calendar["weeks"]
     total = calendar["totalContributions"]
-    # One point per day, in chronological order — a full year, matching
-    # what the previous third-party embed showed.
-    days = [d for week in weeks for d in week["contributionDays"]]
+    # One point per day, in chronological order, trimmed to the most recent
+    # WINDOW_DAYS — the header's own total stays the all-time count from the
+    # API, only the plotted line/dots are windowed.
+    all_days = [d for week in weeks for d in week["contributionDays"]]
+    days = all_days[-WINDOW_DAYS:]
 
     width, height = 495, 215
-    pad_left, pad_right, pad_top, pad_bottom = 44, 15, 35, 46
+    pad_left, pad_right, pad_top, pad_bottom = 44, 15, 42, 46
     plot_width = width - pad_left - pad_right
     plot_height = height - pad_top - pad_bottom
     baseline_y = pad_top + plot_height
@@ -99,37 +108,32 @@ def build_activity_graph_svg(calendar):
         + f" L {points[-1][0]:.1f},{baseline_y:.1f} Z"
     )
 
-    # One small dot marker per day, matching the reference charts' style —
-    # kept tiny (r=1.3) since a full year is ~365 points, much denser than
-    # the 31-day reference screenshots. Colored with GitHub's own
-    # contribution-graph green rather than the line's blue accent, per
-    # feedback that the dots should read as "contributions", like the
-    # snake animation's squares do.
+    # One dot marker per day — now only up to WINDOW_DAYS points, so sized
+    # up from the earlier tiny full-year radius (1.3) to something that
+    # actually reads as a marker rather than a speck.
     dot_svg = "".join(
-        f'<circle cx="{x:.1f}" cy="{y:.1f}" r="1.3" fill="{THEME["dot"]}" />'
+        f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2" fill="{THEME["dot"]}" />'
         for x, y in points
     )
 
-    # X-axis reads as a plain day count (1, 30, 60, ... up to the last day),
-    # matching the reference charts' plain-number style, scaled from their
-    # one-month window to this chart's full year. Gridlines are drawn twice
-    # as often as labels (every 15 days vs. every 30) for a finer, smaller-
-    # celled mesh than a label at every line would allow room for.
-    grid_step, label_step = 15, 30
-    x_grid_ticks = [(points[i][0], i + 1) for i in range(0, n + 1, grid_step)]
-    x_label_ticks = [(x, day) for x, day in x_grid_ticks if day == 1 or (day - 1) % label_step == 0]
+    # X-axis reads as a plain day count (1, 5, 10, ... up to WINDOW_DAYS),
+    # matching the reference charts' plain-number style. Gridlines are drawn
+    # at every day (a noticeably finer mesh now that there are only
+    # WINDOW_DAYS of them to draw), labels only every 5th to stay readable.
+    label_step = 5
+    x_grid_ticks = [(points[i][0], i + 1) for i in range(n + 1)]
+    x_label_ticks = [(x, day) for x, day in x_grid_ticks if day == 1 or day % label_step == 0]
 
     # Vertical gridlines at each day tick, horizontal gridlines at several
     # round contribution-count values — the "square" plot-area grid the
-    # reference charts have and this one was missing, now finer than a
-    # single line per month.
+    # reference charts have and this one was missing.
     grid_svg = "".join(
         f'<line x1="{x:.1f}" y1="{pad_top}" x2="{x:.1f}" y2="{baseline_y:.1f}" '
         f'stroke="{THEME["border"]}" stroke-width="0.5" />'
         for x, _ in x_grid_ticks
     )
 
-    y_tick_count = 7
+    y_tick_count = 8
     y_ticks = [round(max_count * i / y_tick_count) for i in range(y_tick_count + 1)]
     y_grid_svg = "".join(
         f'<line x1="{pad_left}" y1="{pad_top + plot_height * (1 - v / max_count):.1f}" '
@@ -157,6 +161,9 @@ def build_activity_graph_svg(calendar):
   </text>
   <text x="470" y="24" fill="{THEME['accent']}" font-size="12" font-weight="700" text-anchor="end" font-family="'Segoe UI', Ubuntu, Sans-Serif">
     {total} total
+  </text>
+  <text x="470" y="34" fill="{THEME['muted']}" font-size="9" text-anchor="end" font-family="'Segoe UI', Ubuntu, Sans-Serif">
+    last {WINDOW_DAYS} days shown
   </text>
   <g font-family="'Segoe UI', Ubuntu, Sans-Serif">
     <rect x="{pad_left}" y="{pad_top}" width="{plot_width}" height="{plot_height}" fill="none" stroke="{THEME['border']}" />
