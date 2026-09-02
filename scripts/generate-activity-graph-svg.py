@@ -176,6 +176,15 @@ def build_activity_graph_svg(calendar):
         (points[i][0], fmt_date(days[i]["date"])) for i in label_indices
     ]
 
+    # Caption under the header total names the actual month(s) the window
+    # spans, from the real start/end dates — reads as "last 30 days of Aug"
+    # when the window sits inside one month, or "last 30 days of Aug - Sep"
+    # once it crosses a boundary (the common case for a 30-day window).
+    start_month = calendar_module.month_abbr[int(days[0]["date"].split("-")[1])]
+    end_month = calendar_module.month_abbr[int(days[-1]["date"].split("-")[1])]
+    month_range = start_month if start_month == end_month else f"{start_month} - {end_month}"
+    window_caption = f"last {WINDOW_DAYS} days of {month_range}"
+
     y_grid_svg = "".join(
         f'<line x1="{pad_left}" y1="{pad_top + plot_height * (1 - v / y_scale_max):.1f}" '
         f'x2="{width - pad_right}" y2="{pad_top + plot_height * (1 - v / y_scale_max):.1f}" '
@@ -204,7 +213,7 @@ def build_activity_graph_svg(calendar):
     {total} total
   </text>
   <text x="470" y="34" fill="{THEME['muted']}" font-size="9" text-anchor="end" font-family="'Segoe UI', Ubuntu, Sans-Serif">
-    last {WINDOW_DAYS} days shown
+    {window_caption}
   </text>
   <g font-family="'Segoe UI', Ubuntu, Sans-Serif">
     <rect x="{pad_left}" y="{pad_top}" width="{plot_width}" height="{plot_height}" fill="none" stroke="{THEME['border']}" />
