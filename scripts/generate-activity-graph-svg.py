@@ -159,22 +159,15 @@ def build_activity_graph_svg(calendar):
         for x, _ in points
     )
 
-    # X-axis labels are real calendar dates ("Aug 3", ..., "Sep 3") for the
-    # actual days plotted, not a relative day count — the window is a
-    # rolling 30 days, so on any given day the axis should read from
-    # (today - WINDOW_DAYS) to today, shifting by a day every day. Always
-    # includes the first and last point (the window's true start/end) so
-    # both ends are anchored, with a handful of evenly-stepped dates
-    # between them.
-    def fmt_date(iso_date):
-        y, mo, d = (int(part) for part in iso_date.split("-"))
-        return f"{calendar_module.month_abbr[mo]} {d}"
+    # X-axis labels are plain day-of-month numbers, one per day (dense,
+    # matching the github-readme-activity-graph reference charts' own
+    # style) — they wrap at a month boundary (...29, 30, 31, 1, 2...) with
+    # no month name on the axis itself; the window_caption below is what
+    # disambiguates which month(s) are actually shown.
+    def day_of_month(iso_date):
+        return int(iso_date.split("-")[2])
 
-    x_label_step = 5
-    label_indices = sorted(set(list(range(0, n, x_label_step)) + [n]))
-    x_label_ticks = [
-        (points[i][0], fmt_date(days[i]["date"])) for i in label_indices
-    ]
+    x_label_ticks = [(x, day_of_month(d["date"])) for x, d in zip((p[0] for p in points), days)]
 
     # Caption under the header total names the actual month(s) the window
     # spans, from the real start/end dates — reads as "last 30 days of Aug"
@@ -198,7 +191,7 @@ def build_activity_graph_svg(calendar):
     )
 
     x_label_svg = "".join(
-        f'<text x="{x:.1f}" y="{height - pad_bottom + 16}" fill="{THEME["muted"]}" font-size="9" text-anchor="middle">{label}</text>'
+        f'<text x="{x:.1f}" y="{height - pad_bottom + 16}" fill="{THEME["muted"]}" font-size="8" text-anchor="middle">{label}</text>'
         for x, label in x_label_ticks
     )
 
@@ -223,7 +216,7 @@ def build_activity_graph_svg(calendar):
     {dot_svg}
     {y_label_svg}
     {x_label_svg}
-    <text x="{pad_left + plot_width / 2:.1f}" y="{height - 8}" fill="{THEME['muted']}" font-size="10" text-anchor="middle">Date</text>
+    <text x="{pad_left + plot_width / 2:.1f}" y="{height - 8}" fill="{THEME['muted']}" font-size="10" text-anchor="middle">Days</text>
     <text x="12" y="{y_axis_center:.1f}" fill="{THEME['muted']}" font-size="10" text-anchor="middle" transform="rotate(-90 12 {y_axis_center:.1f})">Contributions</text>
   </g>
 </svg>'''
