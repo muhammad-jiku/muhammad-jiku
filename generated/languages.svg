@@ -5,17 +5,17 @@
   </text>
   <g font-family="'Segoe UI', Ubuntu, Sans-Serif">
     <text x="25" y="55" fill="#c0caf5" font-size="13">TypeScript</text>
-    <text x="470" y="55" fill="#565f89" font-size="12" text-anchor="end">60.6%</text>
+    <text x="470" y="55" fill="#565f89" font-size="12" text-anchor="end">60.4%</text>
     <rect x="25" y="61" width="445" height="7" rx="3.5" fill="#30354f" />
-    <rect x="25" y="61" width="269.5" height="7" rx="3.5" fill="#3178c6" />
+    <rect x="25" y="61" width="268.9" height="7" rx="3.5" fill="#3178c6" />
     <text x="25" y="87" fill="#c0caf5" font-size="13">JavaScript</text>
-    <text x="470" y="87" fill="#565f89" font-size="12" text-anchor="end">29.9%</text>
+    <text x="470" y="87" fill="#565f89" font-size="12" text-anchor="end">29.8%</text>
     <rect x="25" y="93" width="445" height="7" rx="3.5" fill="#30354f" />
-    <rect x="25" y="93" width="132.9" height="7" rx="3.5" fill="#f1e05a" />
+    <rect x="25" y="93" width="132.6" height="7" rx="3.5" fill="#f1e05a" />
     <text x="25" y="119" fill="#c0caf5" font-size="13">CSS</text>
     <text x="470" y="119" fill="#565f89" font-size="12" text-anchor="end">6.3%</text>
     <rect x="25" y="125" width="445" height="7" rx="3.5" fill="#30354f" />
-    <rect x="25" y="125" width="28.0" height="7" rx="3.5" fill="#563d7c" />
+    <rect x="25" y="125" width="27.9" height="7" rx="3.5" fill="#563d7c" />
     <text x="25" y="151" fill="#c0caf5" font-size="13">HTML</text>
     <text x="470" y="151" fill="#565f89" font-size="12" text-anchor="end">2.1%</text>
     <rect x="25" y="157" width="445" height="7" rx="3.5" fill="#30354f" />
@@ -24,9 +24,9 @@
     <text x="470" y="183" fill="#565f89" font-size="12" text-anchor="end">0.5%</text>
     <rect x="25" y="189" width="445" height="7" rx="3.5" fill="#30354f" />
     <rect x="25" y="189" width="3.0" height="7" rx="3.5" fill="#a91e50" />
-    <text x="25" y="215" fill="#c0caf5" font-size="13">MDX</text>
-    <text x="470" y="215" fill="#565f89" font-size="12" text-anchor="end">0.2%</text>
+    <text x="25" y="215" fill="#c0caf5" font-size="13">Python</text>
+    <text x="470" y="215" fill="#565f89" font-size="12" text-anchor="end">0.3%</text>
     <rect x="25" y="221" width="445" height="7" rx="3.5" fill="#30354f" />
-    <rect x="25" y="221" width="3.0" height="7" rx="3.5" fill="#8b949e" />
+    <rect x="25" y="221" width="3.0" height="7" rx="3.5" fill="#3572A5" />
   </g>
 </svg>
