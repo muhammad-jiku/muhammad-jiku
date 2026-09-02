@@ -16,7 +16,9 @@ OUT_DIR = "generated"
 
 # Matches the palette already used by generate-stats-svg.py's cards, so this
 # chart sits visually consistent with the rest of the README rather than
-# introducing a fourth color scheme.
+# introducing a fourth color scheme. "dot" is GitHub's own contribution-graph
+# green (same family as the snake animation's squares), used only for the
+# per-day markers so they read as "contribution" dots at a glance.
 THEME = {
     "bg": "#1a1b27",
     "border": "#30354f",
@@ -25,9 +27,8 @@ THEME = {
     "muted": "#565f89",
     "accent": "#bb9af7",
     "area": "#7aa2f7",
+    "dot": "#39d353",
 }
-
-MONTH_LABELS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 QUERY = """
 query($login: String!) {
@@ -100,34 +101,35 @@ def build_activity_graph_svg(calendar):
 
     # One small dot marker per day, matching the reference charts' style —
     # kept tiny (r=1.3) since a full year is ~365 points, much denser than
-    # the 31-day reference screenshots.
+    # the 31-day reference screenshots. Colored with GitHub's own
+    # contribution-graph green rather than the line's blue accent, per
+    # feedback that the dots should read as "contributions", like the
+    # snake animation's squares do.
     dot_svg = "".join(
-        f'<circle cx="{x:.1f}" cy="{y:.1f}" r="1.3" fill="{THEME["area"]}" />'
+        f'<circle cx="{x:.1f}" cy="{y:.1f}" r="1.3" fill="{THEME["dot"]}" />'
         for x, y in points
     )
 
-    # One tick per month boundary actually present in the data, so the
-    # x-axis reads as real dates rather than evenly-spaced guesses.
-    month_ticks = []
-    seen_months = set()
-    for i, d in enumerate(days):
-        month_key = d["date"][:7]
-        if month_key not in seen_months:
-            seen_months.add(month_key)
-            month_index = int(d["date"][5:7]) - 1
-            x, _ = points[i]
-            month_ticks.append((x, MONTH_LABELS[month_index]))
+    # X-axis reads as a plain day count (1, 30, 60, ... up to the last day),
+    # matching the reference charts' plain-number style, scaled from their
+    # one-month window to this chart's full year. Gridlines are drawn twice
+    # as often as labels (every 15 days vs. every 30) for a finer, smaller-
+    # celled mesh than a label at every line would allow room for.
+    grid_step, label_step = 15, 30
+    x_grid_ticks = [(points[i][0], i + 1) for i in range(0, n + 1, grid_step)]
+    x_label_ticks = [(x, day) for x, day in x_grid_ticks if day == 1 or (day - 1) % label_step == 0]
 
-    # Vertical gridlines at each month boundary, horizontal gridlines at a
-    # handful of round contribution-count values — the "square" plot-area
-    # grid the reference charts have and this one was missing.
+    # Vertical gridlines at each day tick, horizontal gridlines at several
+    # round contribution-count values — the "square" plot-area grid the
+    # reference charts have and this one was missing, now finer than a
+    # single line per month.
     grid_svg = "".join(
         f'<line x1="{x:.1f}" y1="{pad_top}" x2="{x:.1f}" y2="{baseline_y:.1f}" '
         f'stroke="{THEME["border"]}" stroke-width="0.5" />'
-        for x, _ in month_ticks
+        for x, _ in x_grid_ticks
     )
 
-    y_tick_count = 4
+    y_tick_count = 7
     y_ticks = [round(max_count * i / y_tick_count) for i in range(y_tick_count + 1)]
     y_grid_svg = "".join(
         f'<line x1="{pad_left}" y1="{pad_top + plot_height * (1 - v / max_count):.1f}" '
@@ -141,9 +143,9 @@ def build_activity_graph_svg(calendar):
         for v in y_ticks
     )
 
-    month_label_svg = "".join(
-        f'<text x="{x:.1f}" y="{height - pad_bottom + 16}" fill="{THEME["muted"]}" font-size="10" text-anchor="middle">{label}</text>'
-        for x, label in month_ticks
+    x_label_svg = "".join(
+        f'<text x="{x:.1f}" y="{height - pad_bottom + 16}" fill="{THEME["muted"]}" font-size="10" text-anchor="middle">{day}</text>'
+        for x, day in x_label_ticks
     )
 
     y_axis_center = pad_top + plot_height / 2
@@ -163,7 +165,7 @@ def build_activity_graph_svg(calendar):
     <path d="{line_path}" fill="none" stroke="{THEME['area']}" stroke-width="1.5" />
     {dot_svg}
     {y_label_svg}
-    {month_label_svg}
+    {x_label_svg}
     <text x="{pad_left + plot_width / 2:.1f}" y="{height - 8}" fill="{THEME['muted']}" font-size="10" text-anchor="middle">Days</text>
     <text x="12" y="{y_axis_center:.1f}" fill="{THEME['muted']}" font-size="10" text-anchor="middle" transform="rotate(-90 12 {y_axis_center:.1f})">Contributions</text>
   </g>

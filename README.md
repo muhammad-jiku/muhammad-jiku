@@ -156,7 +156,7 @@ Some of my work happens inside clients'/teammates' repositories rather than my o
 - **[mahbubnoyon506/managing-branches](https://github.com/mahbubnoyon506/managing-branches)** — 1 pull request (1 merged)
 <!-- CONTRIBUTIONS-END -->
 
-> Additional freelance/client work has been delivered under private repositories per client confidentiality — available on request or via my [jikmunn](https://jikmunn.vercel.app/) portfolio.
+> Additional freelance/client work has been delivered under private repositories per client confidentiality — the work itself is visible on my [jikmunn portfolio](https://jikmunn.vercel.app/projects), even where the source repo isn't public.
 
 <br />
 
