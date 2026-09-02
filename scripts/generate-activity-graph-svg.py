@@ -7,6 +7,7 @@ Run with GH_USERNAME and GITHUB_TOKEN set in the environment (both provided
 automatically inside GitHub Actions).
 """
 import json
+import math
 import os
 import urllib.request
 
@@ -56,6 +57,32 @@ query($login: String!) {
 """
 
 
+def nice_y_ticks(max_value, tick_count=5):
+    """Round tick values up to a human-friendly step (1/2/5 x a power of
+    ten) instead of just slicing max_value into tick_count equal pieces —
+    the latter produces jagged labels like 2, 5, 7, 10, 12 whenever
+    max_value isn't itself a clean multiple of tick_count."""
+    if max_value <= 0:
+        max_value = 1
+    if max_value <= tick_count:
+        # Small integer range — counting by ones is already clean.
+        return list(range(0, max_value + 1))
+    raw_step = max_value / tick_count
+    magnitude = 10 ** math.floor(math.log10(raw_step))
+    residual = raw_step / magnitude
+    if residual > 5:
+        step = 10 * magnitude
+    elif residual > 2:
+        step = 5 * magnitude
+    elif residual > 1:
+        step = 2 * magnitude
+    else:
+        step = magnitude
+    step = max(int(round(step)), 1)
+    top = int(math.ceil(max_value / step) * step)
+    return list(range(0, top + step, step))
+
+
 def fetch_contribution_calendar(username):
     body = json.dumps({"query": QUERY, "variables": {"login": username}}).encode("utf-8")
     req = urllib.request.Request(
@@ -91,9 +118,15 @@ def build_activity_graph_svg(calendar):
     max_count = max(counts) if counts and max(counts) > 0 else 1
     n = max(len(days) - 1, 1)
 
+    # Scale the plot to the nice-rounded ceiling (e.g. 20) rather than the
+    # raw max_count (e.g. 19), so the tallest point lines up with the top
+    # gridline/label instead of sitting slightly below it.
+    y_ticks = nice_y_ticks(max_count)
+    y_scale_max = y_ticks[-1]
+
     def point(i, count):
         x = pad_left + plot_width * i / n
-        y = pad_top + plot_height * (1 - count / max_count)
+        y = pad_top + plot_height * (1 - count / y_scale_max)
         return x, y
 
     points = [point(i, c) for i, c in enumerate(counts)]
@@ -116,33 +149,34 @@ def build_activity_graph_svg(calendar):
         for x, y in points
     )
 
-    # X-axis reads as a plain day count (1, 5, 10, ... up to WINDOW_DAYS),
-    # matching the reference charts' plain-number style. Gridlines are drawn
-    # at every day (a noticeably finer mesh now that there are only
-    # WINDOW_DAYS of them to draw), labels only every 5th to stay readable.
-    label_step = 5
-    x_grid_ticks = [(points[i][0], i + 1) for i in range(n + 1)]
-    x_label_ticks = [(x, day) for x, day in x_grid_ticks if day == 1 or day % label_step == 0]
-
-    # Vertical gridlines at each day tick, horizontal gridlines at several
-    # round contribution-count values — the "square" plot-area grid the
-    # reference charts have and this one was missing.
+    # Fine vertical gridlines at every day (a noticeably finer mesh now that
+    # there are only WINDOW_DAYS of them to draw) — unlabeled, purely
+    # decorative density, kept separate from the labeled ticks below.
     grid_svg = "".join(
         f'<line x1="{x:.1f}" y1="{pad_top}" x2="{x:.1f}" y2="{baseline_y:.1f}" '
         f'stroke="{THEME["border"]}" stroke-width="0.5" />'
-        for x, _ in x_grid_ticks
+        for x, _ in points
     )
 
-    y_tick_count = 8
-    y_ticks = [round(max_count * i / y_tick_count) for i in range(y_tick_count + 1)]
+    # X-axis labels are evenly spaced (0, 5, 10, ... WINDOW_DAYS) across the
+    # plot's own width, rather than tied to individual data-point indices —
+    # avoids the uneven first gap a forced "always show day 1" tick used to
+    # cause, at the cost of an imperceptible few-pixel offset from the
+    # nearest actual point.
+    x_label_step = 5
+    x_label_ticks = [
+        (pad_left + plot_width * day / WINDOW_DAYS, day)
+        for day in range(0, WINDOW_DAYS + 1, x_label_step)
+    ]
+
     y_grid_svg = "".join(
-        f'<line x1="{pad_left}" y1="{pad_top + plot_height * (1 - v / max_count):.1f}" '
-        f'x2="{width - pad_right}" y2="{pad_top + plot_height * (1 - v / max_count):.1f}" '
+        f'<line x1="{pad_left}" y1="{pad_top + plot_height * (1 - v / y_scale_max):.1f}" '
+        f'x2="{width - pad_right}" y2="{pad_top + plot_height * (1 - v / y_scale_max):.1f}" '
         f'stroke="{THEME["border"]}" stroke-width="0.5" />'
         for v in y_ticks
     )
     y_label_svg = "".join(
-        f'<text x="{pad_left - 8}" y="{pad_top + plot_height * (1 - v / max_count) + 3:.1f}" '
+        f'<text x="{pad_left - 8}" y="{pad_top + plot_height * (1 - v / y_scale_max) + 3:.1f}" '
         f'fill="{THEME["muted"]}" font-size="9" text-anchor="end">{v}</text>'
         for v in y_ticks
     )
