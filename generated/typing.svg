@@ -1,0 +1,49 @@
+<svg width="650" height="50" viewBox="0 0 650 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip0">
+      <rect x="22.6" y="0" height="50">
+        <animate attributeName="width" dur="18.130s" repeatCount="indefinite"
+          keyTimes="0;0.11914;0.174297;0.233867;1"
+          values="0.0;604.8;604.8;0.0;0.0" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip1">
+      <rect x="14.2" y="0" height="50">
+        <animate attributeName="width" dur="18.130s" repeatCount="indefinite"
+          keyTimes="0;0.233867;0.356315;0.411473;0.472697;1"
+          values="0.0;0.0;621.6;621.6;0.0;0.0" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip2">
+      <rect x="22.6" y="0" height="50">
+        <animate attributeName="width" dur="18.130s" repeatCount="indefinite"
+          keyTimes="0;0.472697;0.591837;0.646994;0.706564;1"
+          values="0.0;0.0;604.8;604.8;0.0;0.0" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip3">
+      <rect x="-78.2" y="0" height="50">
+        <animate attributeName="width" dur="18.130s" repeatCount="indefinite"
+          keyTimes="0;0.706564;0.865416;0.920574;1.0"
+          values="0.0;0.0;806.4;806.4;0.0" />
+      </rect>
+    </clipPath>
+  </defs>
+  
+    <g clip-path="url(#clip0)">
+      <text x="22.6" y="34.8" fill="#0E75B6" font-family="'Fira Code', monospace"
+        font-size="28" font-weight="600" text-anchor="start">Hi 👋, I'm Muhammad Azizul Hoque Jiku</text>
+    </g>
+    <g clip-path="url(#clip1)">
+      <text x="14.2" y="34.8" fill="#0E75B6" font-family="'Fira Code', monospace"
+        font-size="28" font-weight="600" text-anchor="start">Full-Stack Web &amp; Mobile App Developer</text>
+    </g>
+    <g clip-path="url(#clip2)">
+      <text x="22.6" y="34.8" fill="#0E75B6" font-family="'Fira Code', monospace"
+        font-size="28" font-weight="600" text-anchor="start">Next.js | MERN | PERN | React Native</text>
+    </g>
+    <g clip-path="url(#clip3)">
+      <text x="-78.2" y="34.8" fill="#0E75B6" font-family="'Fira Code', monospace"
+        font-size="28" font-weight="600" text-anchor="start">Building fast, accessible, production-grade apps</text>
+    </g>
+</svg>

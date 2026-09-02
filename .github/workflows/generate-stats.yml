@@ -44,11 +44,32 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate-trophies-svg.py
 
+      - name: Generate activity graph SVG
+        env:
+          GH_USERNAME: muhammad-jiku
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate-activity-graph-svg.py
+
+      - name: Generate experience badge SVG
+        run: python3 scripts/generate-experience-badge-svg.py
+
+      - name: Generate streak stats SVG
+        env:
+          GH_USERNAME: muhammad-jiku
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate-streak-svg.py
+
+      - name: Generate typing header SVG
+        run: python3 scripts/generate-typing-svg.py
+
+      - name: Generate/migrate shields.io badge SVGs
+        run: python3 scripts/generate-badges-svg.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add generated/stats.svg generated/languages.svg generated/trophies.svg
+          git add generated/stats.svg generated/languages.svg generated/trophies.svg generated/activity-graph.svg generated/experience-badge.svg generated/streak-stats.svg generated/typing.svg generated/badges/ README.md
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else

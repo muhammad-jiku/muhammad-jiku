@@ -1,14 +1,15 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Muhammad+Azizul+Hoque+Jiku;Full-Stack+Web+%26+Mobile+App+Developer;Next.js+%7C+MERN+%7C+PERN+%7C+React+Native;Building+fast%2C+accessible%2C+production-grade+apps" alt="Typing SVG" />
+<img src="generated/typing.svg" alt="Typing SVG" />
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=muhammad-jiku&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-  <a href="https://jikmunn.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-jikmunn-0e75b6?logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/muhammad-azizul-hoque-jiku-775057211/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://www.facebook.com/azizul.azizulhoquejiku" target="_blank"><img src="https://img.shields.io/badge/Facebook-Follow-1877F2?logo=facebook&logoColor=white" alt="Facebook" /></a>
-  <a href="https://wa.me/8801855613783" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
-  <a href="mailto:muhammadjiku364@gmail.com"><img src="https://img.shields.io/badge/Email-muhammadjiku364%40gmail.com-D14836?logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="generated/experience-badge.svg" alt="Years of experience" />
+  <a href="https://jikmunn.vercel.app/" target="_blank"><img src="generated/badges/portfolio-jikmunn.svg" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/muhammad-azizul-hoque-jiku-775057211/" target="_blank"><img src="generated/badges/linkedin-connect.svg" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/azizul.azizulhoquejiku" target="_blank"><img src="generated/badges/facebook-follow.svg" alt="Facebook" /></a>
+  <a href="https://wa.me/8801855613783" target="_blank"><img src="generated/badges/whatsapp-chat.svg" alt="WhatsApp" /></a>
+  <a href="mailto:muhammadjiku364@gmail.com"><img src="generated/badges/email-muhammadjiku364-gmail-com.svg" alt="Email" /></a>
 </p>
 
 </div>
@@ -35,71 +36,71 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 
 **Frontend**
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
-![Material UI](https://img.shields.io/badge/Material_UI-007FFF?logo=mui&logoColor=white)
-![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white)
-![SEO](https://img.shields.io/badge/SEO-4285F4?logo=googlesearchconsole&logoColor=white)
+![HTML5](generated/badges/html5.svg)
+![CSS3](generated/badges/css3.svg)
+![JavaScript](generated/badges/javascript.svg)
+![TypeScript](generated/badges/typescript.svg)
+![React](generated/badges/react.svg)
+![Next.js](generated/badges/next-js.svg)
+![Angular](generated/badges/angular.svg)
+![Vue.js](generated/badges/vue-js.svg)
+![Redux](generated/badges/redux.svg)
+![Tailwind CSS](generated/badges/tailwind-css.svg)
+![Bootstrap](generated/badges/bootstrap.svg)
+![Material UI](generated/badges/material-ui.svg)
+![Sass](generated/badges/sass.svg)
+![WordPress](generated/badges/wordpress.svg)
+![SEO](generated/badges/seo.svg)
 
 **Mobile**
 
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?logo=react&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![React Native](generated/badges/react-native.svg)
+![Flutter](generated/badges/flutter.svg)
+![Kotlin](generated/badges/kotlin.svg)
 
 **Database**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?logo=mongoose&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)
+![MongoDB](generated/badges/mongodb.svg)
+![Mongoose](generated/badges/mongoose.svg)
+![PostgreSQL](generated/badges/postgresql.svg)
+![MySQL](generated/badges/mysql.svg)
+![Supabase](generated/badges/supabase.svg)
 
 </td>
 <td valign="top" width="50%">
 
 **Backend**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
-![Hono](https://img.shields.io/badge/Hono-E36002?logo=hono&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white)
-![EJS](https://img.shields.io/badge/EJS-B4CA65?logo=ejs&logoColor=black)
-![REST API](https://img.shields.io/badge/REST_API-005571?logo=fastapi&logoColor=white)
+![Node.js](generated/badges/node-js.svg)
+![Express](generated/badges/express.svg)
+![NestJS](generated/badges/nestjs.svg)
+![PHP](generated/badges/php.svg)
+![Laravel](generated/badges/laravel.svg)
+![Django](generated/badges/django.svg)
+![Hono](generated/badges/hono.svg)
+![Bun](generated/badges/bun.svg)
+![EJS](generated/badges/ejs.svg)
+![REST API](generated/badges/rest-api.svg)
 
 **DevOps & Cloud**
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![AWS](generated/badges/aws.svg)
+![Vercel](generated/badges/vercel.svg)
+![Railway](generated/badges/railway.svg)
+![Firebase](generated/badges/firebase.svg)
+![Docker](generated/badges/docker.svg)
+![Git](generated/badges/git.svg)
+![GitHub](generated/badges/github.svg)
 
 **Testing & Tooling**
 
-![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white)
-![React Testing Library](https://img.shields.io/badge/RTL-E33332?logo=testing-library&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?logo=sentry&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white)
+![Jest](generated/badges/jest.svg)
+![React Testing Library](generated/badges/rtl.svg)
+![Cypress](generated/badges/cypress.svg)
+![Postman](generated/badges/postman.svg)
+![Sentry](generated/badges/sentry.svg)
+![Figma](generated/badges/figma.svg)
+![VS Code](generated/badges/vs-code.svg)
 
 </td>
 </tr>
@@ -167,14 +168,18 @@ Some of my work happens inside clients'/teammates' repositories rather than my o
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=muhammad-jiku&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
+  <img src="generated/streak-stats.svg" alt="GitHub streak stats" />
 </div>
 
 <div align="center">
   <img src="generated/trophies.svg" alt="Achievements" />
 </div>
 
-> The stats, top-languages, and achievement cards above are generated by [generate-stats-svg.py](scripts/generate-stats-svg.py) and [generate-trophies-svg.py](scripts/generate-trophies-svg.py), committed straight into this repo by [generate-stats.yml](.github/workflows/generate-stats.yml) — no dependency on a third-party server's uptime or quota. Streak stats still come from `streak-stats.demolab.com`, a separate free service that can occasionally return errors if its shared quota is exhausted — that's on their end, not a broken link here.
+> The stats, top-languages, achievement, and streak cards above are generated by [generate-stats-svg.py](scripts/generate-stats-svg.py), [generate-trophies-svg.py](scripts/generate-trophies-svg.py), and [generate-streak-svg.py](scripts/generate-streak-svg.py), committed straight into this repo by [generate-stats.yml](.github/workflows/generate-stats.yml) — no dependency on a third-party server's uptime, billing, or shared quota.
+>
+> The "Experience" badge next to Profile views is generated the same way, by [generate-experience-badge-svg.py](scripts/generate-experience-badge-svg.py) — it counts years since 2020 automatically, so it never needs a manual update. The typing header at the top is [generate-typing-svg.py](scripts/generate-typing-svg.py), a self-contained animated SVG needing no live data at all. Every tech-stack and social badge below is [generate-badges-svg.py](scripts/generate-badges-svg.py), using real brand logos bundled from [simple-icons](https://simpleicons.org) rather than fetching them from `img.shields.io` on every README view.
+>
+> One thing here is still genuinely third-party, deliberately: the "Profile views" counter (`komarev.com`) actually increments on every view, which a static generated file can't do — replacing it would mean standing up a small live counting service, not just a script.
 
 <br />
 
@@ -189,10 +194,10 @@ Some of my work happens inside clients'/teammates' repositories rather than my o
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=muhammad-jiku&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" width="100%" />
+  <img src="generated/activity-graph.svg" alt="Contribution activity graph" width="100%" />
 </div>
 
-> The snake animation is generated by the [generate-snake.yml](.github/workflows/generate-snake.yml) workflow, which redraws it from my contribution graph every 6 hours and publishes it to the `output` branch. It will render as soon as that workflow has run once after this repo is pushed.
+> The snake animation is generated by the [generate-snake.yml](.github/workflows/generate-snake.yml) workflow, which redraws it from my contribution graph every 6 hours and publishes it to the `output` branch. It will render as soon as that workflow has run once after this repo is pushed. The activity graph above is generated by [generate-activity-graph-svg.py](scripts/generate-activity-graph-svg.py), committed straight into this repo alongside the stats/languages/trophies cards — no dependency on a third-party service's uptime or billing (the previous embed, `github-readme-activity-graph.vercel.app`, went down with a 402 Payment Required).
 
 <br />
 
@@ -200,18 +205,18 @@ Some of my work happens inside clients'/teammates' repositories rather than my o
 
 <p align="center">
   <a href="https://jikmunn.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-jikmunn-0e75b6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="generated/badges/portfolio-jikmunn-large.svg" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/muhammad-azizul-hoque-jiku-775057211/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="generated/badges/linkedin-large.svg" alt="LinkedIn" />
   </a>
   <a href="https://www.facebook.com/azizul.azizulhoquejiku" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+    <img src="generated/badges/facebook-large.svg" alt="Facebook" />
   </a>
   <a href="https://wa.me/8801855613783" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+    <img src="generated/badges/whatsapp-large.svg" alt="WhatsApp" />
   </a>
   <a href="mailto:muhammadjiku364@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="generated/badges/gmail-large.svg" alt="Email" />
   </a>
 </p>

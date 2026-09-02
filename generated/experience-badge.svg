@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="159" height="20">
+  <linearGradient id="smooth" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+    <stop offset="1" stop-opacity=".1" />
+  </linearGradient>
+  <clipPath id="round">
+    <rect width="159" height="20" rx="3" fill="#fff" />
+  </clipPath>
+  <g clip-path="url(#round)">
+    <rect width="86" height="20" fill="#555555" />
+    <rect x="86" width="73" height="20" fill="#0e75b6" />
+    <rect width="159" height="20" fill="url(#smooth)" />
+  </g>
+  <g fill="#ffffff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <text x="43.0" y="13.85">Experience</text>
+    <text x="122.5" y="13.85">6+ Years</text>
+  </g>
+</svg>
