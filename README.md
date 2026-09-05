@@ -141,7 +141,7 @@ Repos kept private for client confidentiality — listed here by name and stack 
 
 <!-- PRIVATE-PROJECTS-START -->
 - 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-09-05  ·  _private, code not public_
-- 🔒 **jikmunn-portfolio-cms**  ·  `TypeScript`  ·  updated 2026-09-04  ·  _private, code not public_
+- 🔒 **jikmunn-portfolio-cms**  ·  `TypeScript`  ·  updated 2026-09-05  ·  _private, code not public_
 <!-- PRIVATE-PROJECTS-END -->
 
 <br />
