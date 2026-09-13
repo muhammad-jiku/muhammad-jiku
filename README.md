@@ -51,6 +51,10 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 ![Sass](generated/badges/sass.svg)
 ![WordPress](generated/badges/wordpress.svg)
 ![SEO](generated/badges/seo.svg)
+![TanStack Query](generated/badges/tanstack-query.svg)
+![Radix UI](generated/badges/radix-ui.svg)
+![Framer Motion](generated/badges/framer-motion.svg)
+![Zod](generated/badges/zod.svg)
 
 **Mobile**
 
@@ -65,6 +69,7 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 ![PostgreSQL](generated/badges/postgresql.svg)
 ![MySQL](generated/badges/mysql.svg)
 ![Supabase](generated/badges/supabase.svg)
+![Drizzle ORM](generated/badges/drizzle-orm.svg)
 
 </td>
 <td valign="top" width="50%">
@@ -82,6 +87,11 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 ![EJS](generated/badges/ejs.svg)
 ![REST API](generated/badges/rest-api.svg)
 
+**AI & Payments**
+
+![Anthropic Claude SDK](generated/badges/anthropic-claude-sdk.svg)
+![Stripe](generated/badges/stripe.svg)
+
 **DevOps & Cloud**
 
 ![AWS](generated/badges/aws.svg)
@@ -91,6 +101,7 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 ![Docker](generated/badges/docker.svg)
 ![Git](generated/badges/git.svg)
 ![GitHub](generated/badges/github.svg)
+![Turborepo](generated/badges/turborepo.svg)
 
 **Testing & Tooling**
 
@@ -108,13 +119,21 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 
 <br />
 
-## 📌 Featured Projects (résumé)
+## 📌 Featured Project (résumé)
 
-| Project | Highlights | Tech Stack |
-|---|---|---|
-| **Sports Mania** | Global, device-responsive sports store — category browsing, filters, pagination, search, and cart management | Material UI, Redux, MVC, MERN |
-| **Dr. Abdul Kader's Personal Appointment App** | Device-responsive health platform — appointment scheduling and service-based booking | Tailwind CSS, MVC, MERN |
-| **Conference Call App** | Device-responsive video conferencing — real-time chat, reactions, screen sharing, meeting recording | Next.js, React, Material UI, Tailwind CSS, JWT, VideoSDK API |
+**Pepti Platform — Peptide Research SaaS** (Mar 2026 - Present) — a 5-app production platform built for a peptide-research client: one Turborepo monorepo, one shared Postgres/Supabase database, role-based auth across every app.
+
+| App | Live | Timeframe | Highlights |
+|---|---|---|---|
+| **Pepti Wiki** | [pepti.wiki](https://pepti.wiki/) | Apr 2026 - Aug 2026 | Searchable peptide encyclopedia, AI-generated blog content, dosage-calculator and comparison tools, platform-wide referral tracking |
+| **Peptide SDS Generator** | [sds.pepti.click](https://sds.pepti.click/) | Apr 2026 - Jul 2026 | AI-assisted Safety Data Sheet generation via the Claude SDK, Stripe credit system, tiered pricing, OTP-verified free trials |
+| **Pepti Admin** | [admin.pepti.wiki](https://admin.pepti.wiki/) | Mar 2026 - Aug 2026 | Full CRUD dashboards, cross-platform analytics, AI content tooling, role-based access control |
+| **Pepti Influencer** | [influencer.pepti.wiki](https://influencer.pepti.wiki/) | Apr 2026 - Aug 2026 | Self-serve referral coupon/banner portal, earnings analytics |
+| **Pepti Price** | [price.pepti.click](https://price.pepti.click/) | Apr 2026 - Present | Multi-vendor price-comparison engine, click tracking, affiliate analytics |
+
+**Tech Stack:** Next.js 14-16, React 18, TypeScript, Hono, Bun, Drizzle ORM, PostgreSQL (Supabase), Supabase Auth, TanStack Query, Zod, Tailwind CSS, Radix UI, Framer Motion, Stripe, Anthropic Claude SDK, Sentry, Turborepo/pnpm, Jest/Playwright/Cypress, Railway.
+
+_Client repo is private — see [🔒 Private / Client Projects](#-private--client-projects) below for how confidential work is acknowledged without exposing it._
 
 <br />
 

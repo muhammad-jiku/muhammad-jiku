@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="20">
+  <rect width="90" height="20" rx="3" fill="#161618" /><svg x="10.0" y="4.5" width="11" height="11" viewBox="0 0 24 24"><path fill="white" d="M11.52 24a7.68 7.68 0 0 1-7.68-7.68 7.68 7.68 0 0 1 7.68-7.68V24Zm0-24v7.68H3.84V0h7.68Zm4.8 7.68a3.84 3.84 0 1 1 0-7.68 3.84 3.84 0 0 1 0 7.68Z" /></svg><text x="53.5" y="13.8" fill="#ffffff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" font-weight="600">Radix UI</text>
+</svg>
