@@ -171,7 +171,9 @@ Repos kept private for client confidentiality — listed here by name and stack 
 Some of my work happens inside clients'/teammates' repositories rather than my own — surfaced here from merged pull requests found via the GitHub API. Any client engagement kept under a private repo isn't publicly discoverable, so it's noted as private instead of linked.
 
 <!-- CONTRIBUTIONS-START -->
-_No external pull requests found via the GitHub API yet._
+- **[mahbubnoyon506/breeze-time](https://github.com/mahbubnoyon506/breeze-time)** — 5 pull requests (5 merged)
+- **[Rubayet-billah/business-portfolio](https://github.com/Rubayet-billah/business-portfolio)** — 1 pull request (1 merged)
+- **[mahbubnoyon506/managing-branches](https://github.com/mahbubnoyon506/managing-branches)** — 1 pull request (1 merged)
 <!-- CONTRIBUTIONS-END -->
 
 > Additional freelance/client work has been delivered under private repositories per client confidentiality — the work itself is visible on my [jikmunn portfolio](https://jikmunn.vercel.app/projects), even where the source repo isn't public.
