@@ -17,7 +17,7 @@ Full-stack developer specializing in Next.js, TypeScript, and Postgres-backed AP
 **Soft Skills:** Leadership, Communication, Teamwork, Time Management
 
 **PROJECTS**  
-**Pepti Platform - Peptide Research SaaS (Mar 2026 - Present)**
+**Pepti Platform - Peptide Research SaaS (Mar 2026 - Aug 2026)**
 
 _5-app production platform built for a peptide-research client: one Turborepo monorepo, one shared Postgres/Supabase database, role-based auth across every app._
 
@@ -25,7 +25,7 @@ _5-app production platform built for a peptide-research client: one Turborepo mo
 - **Peptide SDS Generator** ([Live Site](https://sds.pepti.click/), Apr 2026 - Jul 2026) - AI-assisted Safety Data Sheet generation via the Claude SDK, with a Stripe credit system, tiered pricing, OTP-verified free trials, and branded PDF export.
 - **Pepti Admin** ([Live Site](https://admin.pepti.wiki/), Mar 2026 - Aug 2026) - Internal dashboard with full CRUD across peptides/vendors/blogs/testimonials, cross-platform analytics, AI content tooling, and role-based access control.
 - **Pepti Influencer** ([Live Site](https://influencer.pepti.wiki/), Apr 2026 - Aug 2026) - Self-serve influencer portal for referral coupons/banners and earnings analytics, wired back into Pepti Wiki through shared APIs.
-- **Pepti Price** ([Live Site](https://price.pepti.click/), Apr 2026 - Present) - Multi-vendor price-comparison engine with sortable/filterable tables, click tracking, and affiliate analytics.
+- **Pepti Price** ([Live Site](https://price.pepti.click/), Apr 2026 - Aug 2026) - Multi-vendor price-comparison engine with sortable/filterable tables, click tracking, and affiliate analytics.
 
 **Tech Stack**  
 Next.js 14-16, React 18, TypeScript, Hono, Bun, Drizzle ORM, PostgreSQL (Supabase), Supabase Auth, TanStack Query, Zod, Tailwind CSS, Radix UI, Framer Motion, Stripe, Anthropic Claude SDK, Sentry, Turborepo/pnpm, Jest/Playwright/Cypress, Railway.

@@ -121,7 +121,7 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 
 ## 📌 Featured Project (résumé)
 
-**Pepti Platform — Peptide Research SaaS** (Mar 2026 - Present) — a 5-app production platform built for a peptide-research client: one Turborepo monorepo, one shared Postgres/Supabase database, role-based auth across every app.
+**Pepti Platform — Peptide Research SaaS** (Mar 2026 - Aug 2026) — a 5-app production platform built for a peptide-research client: one Turborepo monorepo, one shared Postgres/Supabase database, role-based auth across every app.
 
 | App | Live | Timeframe | Highlights |
 |---|---|---|---|
@@ -129,7 +129,7 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 | **Peptide SDS Generator** | [sds.pepti.click](https://sds.pepti.click/) | Apr 2026 - Jul 2026 | AI-assisted Safety Data Sheet generation via the Claude SDK, Stripe credit system, tiered pricing, OTP-verified free trials |
 | **Pepti Admin** | [admin.pepti.wiki](https://admin.pepti.wiki/) | Mar 2026 - Aug 2026 | Full CRUD dashboards, cross-platform analytics, AI content tooling, role-based access control |
 | **Pepti Influencer** | [influencer.pepti.wiki](https://influencer.pepti.wiki/) | Apr 2026 - Aug 2026 | Self-serve referral coupon/banner portal, earnings analytics |
-| **Pepti Price** | [price.pepti.click](https://price.pepti.click/) | Apr 2026 - Present | Multi-vendor price-comparison engine, click tracking, affiliate analytics |
+| **Pepti Price** | [price.pepti.click](https://price.pepti.click/) | Apr 2026 - Aug 2026 | Multi-vendor price-comparison engine, click tracking, affiliate analytics |
 
 **Tech Stack:** Next.js 14-16, React 18, TypeScript, Hono, Bun, Drizzle ORM, PostgreSQL (Supabase), Supabase Auth, TanStack Query, Zod, Tailwind CSS, Radix UI, Framer Motion, Stripe, Anthropic Claude SDK, Sentry, Turborepo/pnpm, Jest/Playwright/Cypress, Railway.
 
