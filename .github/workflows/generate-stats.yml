@@ -72,7 +72,18 @@ jobs:
           git add generated/stats.svg generated/languages.svg generated/trophies.svg generated/activity-graph.svg generated/experience-badge.svg generated/streak-stats.svg generated/typing.svg generated/badges/ README.md
           if git diff --staged --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore: refresh generated GitHub stats SVGs"
-            git push
+            exit 0
           fi
+          git commit -m "chore: refresh generated GitHub stats SVGs"
+          # The shared concurrency group only serializes this repo's own workflow runs — it
+          # doesn't protect against a manual/local push landing on main in between. Rebase
+          # onto the latest main and retry a few times before giving up.
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
+          echo "Push failed after 3 attempts" >&2
+          exit 1

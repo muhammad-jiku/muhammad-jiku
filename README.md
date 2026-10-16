@@ -133,7 +133,7 @@ I'm a **Full-Stack Web & Mobile App Developer** based in Feni, Bangladesh, with 
 
 **Tech Stack:** Next.js 14-16, React 18, TypeScript, Hono, Bun, Drizzle ORM, PostgreSQL (Supabase), Supabase Auth, TanStack Query, Zod, Tailwind CSS, Radix UI, Framer Motion, Stripe, Anthropic Claude SDK, Sentry, Turborepo/pnpm, Jest/Playwright/Cypress, Railway.
 
-_Client repo is private — see [🔒 Private / Client Projects](#-private--client-projects) below for how confidential work is acknowledged without exposing it._
+_Client repo is private — see [🔒 Private Projects](#-private-projects) below for how confidential work is acknowledged without exposing it._
 
 <br />
 
@@ -154,13 +154,11 @@ _Automatically updated from my public GitHub activity — see [update-readme.yml
 
 <br />
 
-## 🔒 Private / Client Projects
+## 🔒 Private Projects
 
-Repos kept private for client confidentiality — listed here by name and stack only, with no link and no description, so the work is acknowledged without exposing anything.
+Repos kept private for confidentiality, named `jikmunn-*` — listed here by name and stack only, with no link and no description, so the work is acknowledged without exposing anything.
 
 <!-- PRIVATE-PROJECTS-START -->
-- 🔒 **Laffoley-Building-Service-CO**  ·  `TypeScript`  ·  updated 2026-10-15  ·  _private, code not public_
-- 🔒 **Giant-Construction-Company-LTD**  ·  `TypeScript`  ·  updated 2026-10-14  ·  _private, code not public_
 - 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-09-16  ·  _private, code not public_
 - 🔒 **jikmunn-portfolio-cms**  ·  `TypeScript`  ·  updated 2026-09-16  ·  _private, code not public_
 <!-- PRIVATE-PROJECTS-END -->
@@ -169,13 +167,16 @@ Repos kept private for client confidentiality — listed here by name and stack 
 
 ## 🤝 Collaborative & Client Work
 
-Some of my work happens inside clients'/teammates' repositories rather than my own — surfaced here from merged pull requests found via the GitHub API. Any client engagement kept under a private repo isn't publicly discoverable, so it's noted as private instead of linked.
+Some of my work happens inside clients'/teammates' repositories rather than my own, or in private repos under this account that aren't personal `jikmunn-*` projects — surfaced here from merged pull requests found via the GitHub API, plus a couple of private repos noted by name only. Any client engagement kept under a private repo isn't publicly discoverable, so it's noted as private instead of linked.
 
 <!-- CONTRIBUTIONS-START -->
 - **[mahbubnoyon506/breeze-time](https://github.com/mahbubnoyon506/breeze-time)** — 5 pull requests (5 merged)
 - **[Rubayet-billah/business-portfolio](https://github.com/Rubayet-billah/business-portfolio)** — 1 pull request (1 merged)
 - **[mahbubnoyon506/managing-branches](https://github.com/mahbubnoyon506/managing-branches)** — 1 pull request (1 merged)
+- 🔒 **Laffoley-Building-Service-CO**  ·  `TypeScript`  ·  updated 2026-10-15  ·  _private, code not public_
+- 🔒 **Giant-Construction-Company-LTD**  ·  `TypeScript`  ·  updated 2026-10-14  ·  _private, code not public_
 <!-- CONTRIBUTIONS-END -->
+- 🔒 **peptides-platform**  ·  `TypeScript`  ·  _private, collaborator access, code not public_
 
 > Additional freelance/client work has been delivered under private repositories per client confidentiality — the work itself is visible on my [jikmunn portfolio](https://jikmunn.vercel.app/projects), even where the source repo isn't public.
 
