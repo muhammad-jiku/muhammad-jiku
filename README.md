@@ -156,7 +156,7 @@ _Automatically updated from my public GitHub activity — see [update-readme.yml
 
 ## 🔒 Private Projects
 
-Repos kept private for confidentiality, named `jikmunn-*` — listed here by name and stack only, with no link and no description, so the work is acknowledged without exposing anything.
+Repos kept private for confidentiality, named `jikmunn-*`, and represented here by name and primary language alone — enough to show real, ongoing work without exposing any source or client detail.
 
 <!-- PRIVATE-PROJECTS-START -->
 - 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-10-16  ·  _private, code not public_
@@ -167,7 +167,7 @@ Repos kept private for confidentiality, named `jikmunn-*` — listed here by nam
 
 ## 🤝 Collaborative & Client Work
 
-Some of my work happens inside clients'/teammates' repositories rather than my own, or in private repos under this account that aren't personal `jikmunn-*` projects — surfaced here from merged pull requests found via the GitHub API, plus a couple of private repos noted by name only. Any client engagement kept under a private repo isn't publicly discoverable, so it's noted as private instead of linked.
+Some of my work happens inside clients' or teammates' repositories rather than my own, drawn from merged pull requests across the GitHub API, alongside a small number of private engagements under this account that fall outside my personal `jikmunn-*` line. Each is represented by name only, keeping the relationship visible while the work itself stays confidential.
 
 <!-- CONTRIBUTIONS-START -->
 - **[mahbubnoyon506/breeze-time](https://github.com/mahbubnoyon506/breeze-time)** — 5 pull requests (5 merged)
