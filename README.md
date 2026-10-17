@@ -159,7 +159,7 @@ _Automatically updated from my public GitHub activity — see [update-readme.yml
 A small set of projects kept private. Each is listed by name and stack only.
 
 <!-- PRIVATE-PROJECTS-START -->
-- 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-10-16  ·  _private, code not public_
+- 🔒 **jikmunn-portfolio**  ·  `TypeScript`  ·  updated 2026-10-17  ·  _private, code not public_
 - 🔒 **jikmunn-portfolio-cms**  ·  `TypeScript`  ·  updated 2026-09-16  ·  _private, code not public_
 <!-- PRIVATE-PROJECTS-END -->
 
