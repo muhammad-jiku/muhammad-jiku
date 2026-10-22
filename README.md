@@ -142,12 +142,12 @@ _Client repo is private — see [🔒 Private Projects](#-private-projects) belo
 _Automatically updated from my public GitHub activity — see [update-readme.yml](.github/workflows/update-readme.yml). Refreshes daily on a schedule, or instantly from any repo wired up with [templates/notify-profile.yml](templates/notify-profile.yml)._
 
 <!-- PROJECTS-START -->
+- **[Project-Submission-Manager](https://github.com/muhammad-jiku/Project-Submission-Manager)**  ·  `TypeScript`  ·  updated 2026-10-21
 - **[jikmunn-blogs-discussions](https://github.com/muhammad-jiku/jikmunn-blogs-discussions)**  ·  updated 2026-09-01
 - **[jikmunn-odyssey-task-one](https://github.com/muhammad-jiku/jikmunn-odyssey-task-one)**  ·  `TypeScript`  ·  updated 2026-05-03
 - **[jikmunn-real-estate-enterprise](https://github.com/muhammad-jiku/jikmunn-real-estate-enterprise)** — Rentiful is a real estate application built under the Jikmunn Real Estate Enterprise project. It is a digital platform where tenants can register, explore properties, and purchase their desired spaces. Managers are provided with tools to effectively administer and monitor lease agreements  ·  `TypeScript`  ·  updated 2026-02-28
 - **[jikmunn-bike-inventory-client-side](https://github.com/muhammad-jiku/jikmunn-bike-inventory-client-side)** — Bike Decor Inventory is a modern MERN stack application for managing and showcasing bike accessories and inventory. It features secure authentication, user-specific inventory management, and a sleek, user-friendly interface for both admins and customers to explore and manage bike decor products.  ·  `JavaScript`  ·  updated 2026-01-19
 - **[jikmunn-bike-inventory-server-side](https://github.com/muhammad-jiku/jikmunn-bike-inventory-server-side)** — The Bike Decor Inventory Server is a robust Node.js and Express backend that powers secure bike accessory inventory management. It features JWT-based authentication, user-specific data protection, and seamless MongoDB integration, providing reliable APIs for both public browsing and authenticated inventory operations.  ·  `JavaScript`  ·  updated 2026-01-19
-- **[jikmunn-genius-car-service-client](https://github.com/muhammad-jiku/jikmunn-genius-car-service-client)** — A modern MERN stack app for car service management. Features secure authentication, service booking, order tracking, and a sleek React UI. Perfect for learning, portfolios, and real-world service business scenarios.  ·  `JavaScript`  ·  updated 2026-01-12
 <!-- PROJECTS-END -->
 
 ➡️ Browse everything: [github.com/muhammad-jiku?tab=repositories](https://github.com/muhammad-jiku?tab=repositories)
