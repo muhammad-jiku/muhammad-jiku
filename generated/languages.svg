@@ -5,13 +5,13 @@
   </text>
   <g font-family="'Segoe UI', Ubuntu, Sans-Serif">
     <text x="25" y="55" fill="#c0caf5" font-size="13">TypeScript</text>
-    <text x="470" y="55" fill="#565f89" font-size="12" text-anchor="end">56.9%</text>
+    <text x="470" y="55" fill="#565f89" font-size="12" text-anchor="end">57.0%</text>
     <rect x="25" y="61" width="445" height="7" rx="3.5" fill="#30354f" />
-    <rect x="25" y="61" width="253.3" height="7" rx="3.5" fill="#3178c6" />
+    <rect x="25" y="61" width="253.5" height="7" rx="3.5" fill="#3178c6" />
     <text x="25" y="87" fill="#c0caf5" font-size="13">JavaScript</text>
     <text x="470" y="87" fill="#565f89" font-size="12" text-anchor="end">32.8%</text>
     <rect x="25" y="93" width="445" height="7" rx="3.5" fill="#30354f" />
-    <rect x="25" y="93" width="146.2" height="7" rx="3.5" fill="#f1e05a" />
+    <rect x="25" y="93" width="146.0" height="7" rx="3.5" fill="#f1e05a" />
     <text x="25" y="119" fill="#c0caf5" font-size="13">CSS</text>
     <text x="470" y="119" fill="#565f89" font-size="12" text-anchor="end">6.4%</text>
     <rect x="25" y="125" width="445" height="7" rx="3.5" fill="#30354f" />
